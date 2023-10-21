@@ -5,7 +5,7 @@ import { differenceInWeeks, startOfToday } from "date-fns";
 
 const Hero = () => (
 	<div className="hero min-h-screen bg-fuchsia-100 py-20 p-x-6">
-		<div className="hero-content flex-col lg:flex-row gap-x-10 max-w-5xl">
+		<div className="hero-content flex-col lg:flex-row gap-x-10 max-w-5xl flex-wrap-reverse">
 			<div className="flex flex-col gap-y-4">
 				<h1 className="text-5xl font-bold">
 					<span className="text-secondary">Pepper:</span> Your New Best Friend!

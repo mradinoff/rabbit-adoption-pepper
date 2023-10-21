@@ -32,7 +32,7 @@ const Carousel = () => (
 	>
 		<h2 className="text-5xl font-bold">{"Pepper's Gallery 🎨"}</h2>
 		<div className="mx-auto max-w-100">
-			<div className="carousel carousel-center rounded-box w-100">
+			<div className="carousel rounded-box w-100">
 				{images.map((image, i) => (
 					<div className="carousel-item mr-5 relative shadow-lg" key={i}>
 						<Image
