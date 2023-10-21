@@ -62,7 +62,7 @@ const Form = () => {
 	return (
 		<section className="px-6 py-20 min-h-screen">
 			<div className="mx-auto flex flex-col gap-y-12 max-w-2xl">
-				<h2 className="text-center text-5xl font-bold">
+				<h2 className="text-center text-3xl md:text-5xl font-bold">
 					Ready to add some Pepper to your life?
 				</h2>
 				<form
@@ -145,7 +145,7 @@ const Form = () => {
 					</button>
 				</form>
 				<div className="divider text-4xl my-8 text-primary">OR</div>
-				<h2 className="text-5xl font-bold text-center">
+				<h2 className="text-3xl md:text-5xl font-bold text-center">
 					Know someone who would love to adopt Pepper?
 				</h2>
 				<div>

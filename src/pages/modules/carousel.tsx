@@ -28,11 +28,14 @@ const images = [
 const Carousel = () => (
 	<section
 		id="intro"
-		className="flex flex-col justify-center text-center px-6 py-20 gap-y-16 min-h-screen"
+		className="flex flex-col justify-center text-center px-6 py-20 gap-y-16 min-h-screen w-100"
 	>
-		<h2 className="text-5xl font-bold">{"Pepper's Gallery 🎨"}</h2>
-		<div className="mx-auto max-w-100">
-			<div className="carousel rounded-box w-100 mx-auto max-w-6xl">
+		<h2 className="text-3xl md:text-5xl font-bold">{"Pepper's Gallery 🎨"}</h2>
+		<div className="mx-auto relative" style={{ width: "100%" }}>
+			<div
+				className="carousel rounded-box mx-auto max-w-4xl"
+				style={{ width: "100%" }}
+			>
 				{images.map((image, i) => (
 					<div className="carousel-item mr-5 relative shadow-lg" key={i}>
 						<Image

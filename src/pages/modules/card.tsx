@@ -21,16 +21,16 @@ const content = [
 ];
 
 const Card = () => (
-	<section className="bg-fuchsia-100 min-h-screen flex flex-col justify-center px-4">
-		<div className="container md:py-20 m-auto">
-			<h2 className="text-center mb-16 text-5xl font-bold">
+	<section className="bg-fuchsia-100 min-h-screen flex flex-col justify-center">
+		<div className="container py-20 m-auto px-6">
+			<h2 className="text-center mb-16 text-3xl md:text-5xl font-bold ">
 				What makes Pepper the perfect pet?
 			</h2>
-			<div className="flex flex-row gap-4 flex-wrap justify-center">
+			<div className="flex flex-row gap-6 md:gap-4 flex-wrap justify-center">
 				{content.map((item, i) => (
 					<div
 						key={i}
-						className="rounded-lg py-8 px-6 flex flex-col w-3/12 md:w-100 gap-y-6 glass border-2 border-primary text-center shadow-lg min-w-[300px]"
+						className="rounded-lg py-8 px-6 flex flex-col w-100 md:w-3/12   gap-y-6 glass border-2 border-primary text-center shadow-lg min-w-[300px]"
 					>
 						{item.svg}
 
