@@ -35,6 +35,8 @@ const Hero = () => (
 				width={500}
 				height={500}
 				className="mask mask-heart max-w-100"
+				placeholder="blur"
+				priority
 			/>
 		</div>
 	</div>

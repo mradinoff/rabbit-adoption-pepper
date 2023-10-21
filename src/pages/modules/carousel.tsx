@@ -40,6 +40,7 @@ const Carousel = () => (
 							alt={image.alt}
 							height={300}
 							width={image.width}
+							placeholder="blur"
 							className="max-w-100"
 						/>
 					</div>
