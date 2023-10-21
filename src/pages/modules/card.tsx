@@ -6,17 +6,17 @@ const content = [
 	{
 		heading: "Loving Demeanor",
 		text: "Pepper is a cuddle expert, wrapping everyone they meet in warm, fuzzy affection. \nTheir gentle nature makes them a perfect companion for families and individuals alike.",
-		svg: <Heart className="h-12 w-12 m-auto text-primary" />,
+		svg: <Heart className="h-12 w-12 mx-auto text-primary" />,
 	},
 	{
 		heading: "Playful Nature",
 		text: "Despite their early challenges, Pepper bounds with energy. \nWhether it's chasing toys or exploring their surroundings, Pepper is always up for an adventure.",
-		svg: <Sparkle className="h-12 w-12 m-auto text-primary" />,
+		svg: <Sparkle className="h-12 w-12 mx-auto text-primary" />,
 	},
 	{
 		heading: "Easy to Care For",
 		text: "Pepper comes lovelingly potty-trained. \nPepper's adaptability and friendly disposition make them a delightful addition to any home.",
-		svg: <Education className="h-12 w-12 m-auto text-primary" />,
+		svg: <Education className="h-12 w-12 mx-auto text-primary" />,
 	},
 ];
 
@@ -30,7 +30,7 @@ const Card = () => (
 				{content.map((item, i) => (
 					<div
 						key={i}
-						className="rounded-lg py-8 px-6 flex flex-col w-100 md:w-3/12   gap-y-6 glass border-2 border-primary text-center shadow-lg min-w-[300px]"
+						className="rounded-lg py-8 px-6 flex flex-col w-100 md:w-3/12 align-top gap-y-6 glass border-2 border-primary text-center shadow-lg min-w-[300px]"
 					>
 						{item.svg}
 
