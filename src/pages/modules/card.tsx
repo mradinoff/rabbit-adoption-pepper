@@ -22,7 +22,7 @@ const content = [
 
 const Card = () => (
 	<section className="bg-fuchsia-100 min-h-screen flex flex-col justify-center px-4">
-		<div className="container py-52 m-auto">
+		<div className="container md:py-20 m-auto">
 			<h2 className="text-center mb-16 text-5xl font-bold">
 				What makes Pepper the perfect pet?
 			</h2>

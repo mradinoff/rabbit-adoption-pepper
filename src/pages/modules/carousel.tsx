@@ -28,11 +28,11 @@ const images = [
 const Carousel = () => (
 	<section
 		id="intro"
-		className="flex flex-col justify-center text-center px-6 py-52 gap-y-16 min-h-screen"
+		className="flex flex-col justify-center text-center px-6 py-20 gap-y-16 min-h-screen"
 	>
 		<h2 className="text-5xl font-bold">{"Pepper's Gallery 🎨"}</h2>
 		<div className="mx-auto max-w-100">
-			<div className="carousel rounded-box w-100">
+			<div className="carousel rounded-box w-100 mx-auto max-w-6xl">
 				{images.map((image, i) => (
 					<div className="carousel-item mr-5 relative shadow-lg" key={i}>
 						<Image
@@ -41,6 +41,7 @@ const Carousel = () => (
 							height={300}
 							width={image.width}
 							placeholder="blur"
+							blurDataURL={image.src}
 							className="max-w-100"
 						/>
 					</div>

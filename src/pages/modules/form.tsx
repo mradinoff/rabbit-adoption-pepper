@@ -60,7 +60,7 @@ const Form = () => {
 	const title = "Check out this cute rabbit up for adoption!";
 
 	return (
-		<section className="px-6 py-52 min-h-screen">
+		<section className="px-6 py-20 min-h-screen">
 			<div className="mx-auto flex flex-col gap-y-12 max-w-2xl">
 				<h2 className="text-center text-5xl font-bold">
 					Ready to add some Pepper to your life?
