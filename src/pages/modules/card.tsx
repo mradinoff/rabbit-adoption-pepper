@@ -21,7 +21,7 @@ const content = [
 ];
 
 const Card = () => (
-	<section className="bg-fuchsia-100 min-h-screen flex flex-col justify-center">
+	<section className="bg-fuchsia-100 min-h-screen flex flex-col justify-center px-4">
 		<div className="container py-52 m-auto">
 			<h2 className="text-center mb-16 text-5xl font-bold">
 				What makes Pepper the perfect pet?
@@ -30,7 +30,7 @@ const Card = () => (
 				{content.map((item, i) => (
 					<div
 						key={i}
-						className="rounded-lg py-8 px-6 flex flex-col w-3/12 gap-y-6 glass border-2 border-primary text-center shadow-lg"
+						className="rounded-lg py-8 px-6 flex flex-col w-3/12 md:w-100 gap-y-6 glass border-2 border-primary text-center shadow-lg min-w-[300px]"
 					>
 						{item.svg}
 

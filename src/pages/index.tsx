@@ -6,7 +6,7 @@ import Form from "./modules/form";
 const Index = () => {
 	return (
 		<main>
-			<div className="flex flex-col">
+			<div className="flex flex-col w-100">
 				<Hero />
 				<Carousel />
 				<Card />

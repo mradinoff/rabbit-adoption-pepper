@@ -4,8 +4,8 @@ import ArrowDown from "@/assets/icons/arrow-down.svg";
 import { differenceInWeeks, startOfToday } from "date-fns";
 
 const Hero = () => (
-	<div className="hero min-h-screen bg-fuchsia-100 p-x-6">
-		<div className="hero-content flex-col lg:flex-row gap-x-10">
+	<div className="hero min-h-screen bg-fuchsia-100 py-20 p-x-6">
+		<div className="hero-content flex-col lg:flex-row gap-x-10 max-w-5xl">
 			<div className="flex flex-col gap-y-4">
 				<h1 className="text-5xl font-bold">
 					<span className="text-secondary">Pepper:</span> Your New Best Friend!
@@ -34,7 +34,7 @@ const Hero = () => (
 				alt="Pepper at 4 weeks in Hyde park"
 				width={500}
 				height={500}
-				className="mask mask-heart"
+				className="mask mask-heart max-w-100"
 			/>
 		</div>
 	</div>

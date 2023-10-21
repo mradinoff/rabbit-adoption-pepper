@@ -5,23 +5,23 @@ const images = [
 	{
 		alt: "Pepper Rabbit",
 		src: "/assets/images/play.jpg",
-		width: 700,
+		width: 400,
 	},
 	{
 		alt: "Pepper Rabbit",
 		src: "/assets/images/hand.jpg",
-		width: 400,
+		width: 250,
 	},
 
 	{
 		alt: "Pepper Rabbit",
 		src: "/assets/images/litter.jpg",
-		width: 400,
+		width: 250,
 	},
 	{
 		alt: "Pepper Rabbit",
 		src: "/assets/images/big.jpg",
-		width: 400,
+		width: 250,
 	},
 ];
 
@@ -31,15 +31,16 @@ const Carousel = () => (
 		className="flex flex-col justify-center text-center px-6 py-52 gap-y-16 min-h-screen"
 	>
 		<h2 className="text-5xl font-bold">{"Pepper's Gallery 🎨"}</h2>
-		<div className="mx-auto max-w-5xl">
+		<div className="mx-auto max-w-100">
 			<div className="carousel carousel-center rounded-box w-100">
 				{images.map((image, i) => (
 					<div className="carousel-item mr-5 relative shadow-lg" key={i}>
 						<Image
 							src={image.src}
 							alt={image.alt}
-							height={500}
+							height={300}
 							width={image.width}
+							className="max-w-100"
 						/>
 					</div>
 				))}
